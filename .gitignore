@@ -1,0 +1,43 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+secrets/
+credentials/
+private/
+
+# Tokens / local configuration
+*.token
+*.secret
+config.local.*
+settings.local.*
+
+# Raw or customer industrial data
+data/raw/
+data/private/
+data/customer/
+datasets/private/
+datasets/customer/
+
+# Logs and local evidence not approved for publication
+*.log
+logs/private/
+validation_logs/private/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local/editor/system files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.tmp
